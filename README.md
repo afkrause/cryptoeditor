@@ -28,3 +28,12 @@ On the todo-list are some planned improvements:
 
 ## Screenshots
 ![](http://coreloop.de/images/ced_screenshot.png)
+
+## Credits
+[Original editor code](https://github.com/NicoSchumann/fltk_text_editor) by Nico Schumann.
+No license was given, but because FLTK is GPL, this code must be GPL, too.
+The Code by Nico in turn is based on fltk texteditor tutorial: https://www.fltk.org/doc-1.3/editor.html
+
+The code in aes.h provides a very thin wrapper around the [gnu cryptography library](https://www.gnupg.org/documentation/manuals/gcrypt/).
+The code follows advice given in an [AES file encryption tutorial by Tyler Nichols](https://www.tnichols.org/2015/09/27/Encrypting-and-Signing-Using-libgcrypt/), a security engineer and pentester. 
+
