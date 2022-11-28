@@ -15,10 +15,12 @@ sudo apt install libgcrypt-dev
 g++ ced_main.cpp -lgcrypt -lfltk -o ced
 ```
 
-TODO List: 
-[x] automatic GUI adjustements for high-DPI displays
-[x] change font size with Keyboard commands: Ctrl++ and Ctrl+-
-[ ] change font size with mouse scroll wheel
-[ ] aes.h code review
-[ ] remove global variables from ced_main.cpp
-[ ] add special features
+The initial release is fully functional. 
+On the todo-list are some planned improvements:
+- [x] automatic GUI adjustements for high-DPI displays
+- [x] change font size with Keyboard commands: Ctrl++ and Ctrl+-
+- [ ] change font size with mouse scroll wheel
+- [ ] independent aes.h code review
+- [ ] remove global variables from ced_main.cpp
+- [ ] add special feature: for quickly copying passwords
+- [ ] add special feature: visually hide passwords (using syntax highlighting: white-on-white)
