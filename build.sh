@@ -1,0 +1,1 @@
+g++ ced_main.cpp -lgcrypt -lfltk -o ced
