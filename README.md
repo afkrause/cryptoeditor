@@ -24,3 +24,7 @@ On the todo-list are some planned improvements:
 - [ ] remove global variables from ced_main.cpp
 - [ ] add special feature: for quickly copying passwords
 - [ ] add special feature: visually hide passwords (using syntax highlighting: white-on-white)
+
+
+## Screenshots
+![](http://coreloop.de/images/ced_screenshot.png)
