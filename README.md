@@ -31,7 +31,7 @@ On the todo-list are some planned improvements:
 
 ## Credits
 [Original editor code](https://github.com/NicoSchumann/fltk_text_editor) by Nico Schumann.
-No license was given, but because FLTK is GPL, this code must be GPL, too.
+No specific software-license was mentioned, that's why i give credit here. 
 The Code by Nico in turn is based on fltk texteditor tutorial: https://www.fltk.org/doc-1.3/editor.html
 
 The code in aes.h provides a very thin wrapper around the [gnu cryptography library](https://www.gnupg.org/documentation/manuals/gcrypt/).
