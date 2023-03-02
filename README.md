@@ -9,7 +9,7 @@ Features:
 * strong and secure AES encrpytion
 
 Download Windows executable:
-* http://andre-krause.de/cryptoeditor/downloads/ced_v01.zip
+* https://github.com/afkrause/cryptoeditor/releases/download/v01/ced_v01.zip
 * cross compile instructions: see folder build_mingw/
 
 Compile for Linux:
