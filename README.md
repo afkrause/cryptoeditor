@@ -8,6 +8,10 @@ Features:
 * tiny code size - easy to verify
 * strong and secure AES encrpytion
 
+Download Windows executable:
+* http://andre-krause.de/cryptoeditor/downloads/ced_v01.zip
+* cross compile instructions: see folder build_mingw/
+
 Compile for Linux:
 ```console
 sudo apt install libfltk1.3-dev
