@@ -1,0 +1,2 @@
+i686-w64-mingw32-g++ hello_fltk.cpp -static -Ifltk/ -Lfltk/lib -lfltk -lgdiplus -lole32 -luuid -lcomctl32 -lws2_32 -mwindows
+i686-w64-mingw32-g++ ../ced_main.cpp -static -lgcrypt -lgpg-error -lfltk -o ced -I$HOME/w32root/include -Ifltk/ -L$HOME/w32root/lib -Lfltk/lib -lfltk -lgdiplus -lole32 -luuid -lcomctl32 -lws2_32 -mwindows

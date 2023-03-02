@@ -21,13 +21,12 @@ x86_64-w64-mingw32-g++ hello.cpp
 
 install git and other build tools (gcc is required to build a native code preprocessor-tool for gpgerror!):
 
-apt install build-essential
-apt install git autoconf gettext
+sudo apt install build-essential cmake git autoconf gettext
 
 git clone git://git.gnupg.org/libgpg-error.git
 cd libgpg-error
 ./autogen.sh
-./autogen.sh --build-w32
+./autogen.sh --build-w32 --enable-static
 make
 make install
 cp src/gpg-error-config ~/w32root/bin/gpg-error-config
@@ -37,7 +36,7 @@ cd ..
 git clone git://git.gnupg.org/libgcrypt.git
 cd libgcrypt
 ./autogen.sh
-./autogen.sh --build-w32
+./autogen.sh --build-w32 --enable-static
 make
 make install
 
@@ -57,8 +56,5 @@ cd mingw32
 cmake -DCMAKE_TOOLCHAIN_FILE=../cmake_toolchain_file_32bit ..
 
 
-# compile a statically linked version of your windows executable:
-# -static
-
-i686-w64-mingw32-g++ -static hello.cpp 
-
+# compile:
+./build.sh
