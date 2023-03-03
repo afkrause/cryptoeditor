@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=ced-appimage
+Icon=ced-icon
+Categories=Utility;
+Terminal=true
+X-AppImage-Version=0.1.09
